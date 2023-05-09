@@ -2,8 +2,6 @@
 //  ViewController.swift
 //  Todoey
 //
-//  Created by Philipp Muellauer on 02/12/2019.
-//  Copyright © 2019 App Brewery. All rights reserved.
 //
 
 import UIKit
@@ -130,7 +128,7 @@ class TodoListViewController: SwipeTableViewController {
         
     }
     override func updateModel(at indexPath: IndexPath) {
-//        super.updateModel(at: indexPath)   // cagırısan eger orada yazılan kodlarda triggerlanır patron burası
+
         if let item = todoItems?[indexPath.row]{
             do{
                 try realm.write {
