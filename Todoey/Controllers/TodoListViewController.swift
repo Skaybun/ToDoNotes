@@ -152,7 +152,7 @@ class TodoListViewController: SwipeTableViewController {
             if searchBar.text?.count == 0 {
                 loadItems()
                 DispatchQueue.main.async {
-                    searchBar.resignFirstResponder() //ben yokum klavyeyi mlavyeyi kaldır
+                    searchBar.resignFirstResponder()
                 }
             }
         }
