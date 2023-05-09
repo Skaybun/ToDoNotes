@@ -3,8 +3,7 @@
 //  Todoey
 //
 //  Created by Ali KINU on 28.03.2023.
-//  Copyright © 2023 App Brewery. All rights reserved.
-//
+
 
 import Foundation
 import RealmSwift
